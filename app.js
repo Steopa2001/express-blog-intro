@@ -47,6 +47,12 @@ app.get('/', (req, res) => {
   }
 ];
 
+//creo rotta /bacheca
+app.get('/bacheca', (req, res) => {
+    //restituisco oggetto json
+    res.json(posts)
+});
+
 
 
 //avvio il server in ascolto sulla porta 3000
