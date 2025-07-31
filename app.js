@@ -18,31 +18,31 @@ app.get('/', (req, res) => {
   {
     titolo: "Il mio primo post",
     contenuto: "Ciao a tutti! Questo è il mio primo post sul blog.",
-    immagine: "https://via.placeholder.com/150",
+    immagine: "",
     tags: ["introduzione", "personale"]
   },
   {
     titolo: "Una giornata al parco",
     contenuto: "Oggi ho passato una bellissima giornata al parco con gli amici.",
-    immagine: "https://via.placeholder.com/150",
+    immagine: "",
     tags: ["tempo libero", "natura"]
   },
   {
     titolo: "Ricetta facile: pasta al pomodoro",
     contenuto: "Ecco come preparare una semplice pasta al pomodoro in 10 minuti.",
-    immagine: "https://via.placeholder.com/150",
+    immagine: "",
     tags: ["cucina", "ricetta"]
   },
   {
     titolo: "I miei libri preferiti",
     contenuto: "Una lista di libri che mi hanno ispirato e che consiglio a tutti.",
-    immagine: "https://via.placeholder.com/150",
+    immagine: "",
     tags: ["libri", "consigli"]
   },
   {
     titolo: "Viaggio a Roma",
     contenuto: "Qualche foto e racconto del mio recente viaggio a Roma.",
-    immagine: "https://via.placeholder.com/150",
+    immagine: "",
     tags: ["viaggi", "Italia"]
   }
 ];
