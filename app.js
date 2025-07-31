@@ -8,4 +8,4 @@ const port = 3000;
 app.use(express.static('public'));
 
 
-//
+//Creo una rotta Get per ottenere un testo
